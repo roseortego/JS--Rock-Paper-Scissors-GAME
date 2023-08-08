@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Game</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="Game" id="refresh">
+        <h1>JACK EN POY</h1>
+        <div  class="gamer">
+            <p class="capt">CAPTAIN AMERICA:</p> 
+                <span id="playerScoreDisplay">0</span> 
+            <p class="iron">IRON MAN:</p>
+                <span id="computerScoreDisplay">0</span> 
+            <p class="rounds">NUMBER OF WAR:</p>
+                <span id="numberofRounds">1</span> 
+            <div>
+                
+            </div>
+            <img src="assets/image/rock.JPG" id="rock" onclick="startGame('Rock')">
+            <img src="assets/image/paper.JPG" id="paper" onclick="startGame('Paper')">
+            <img src="assets/image/scissors.jpg" id="scissorss" onclick="startGame('Scissors')">
+            <p id="result" value="result">Result: </p>
+            
+            <a href="http://127.0.0.1:5500/index.html" onclick="refresh"> RESET </a>
+        </div>
+    </div>
+</body>
+<script defer src="assets/script/main.js"></script>
+</html>

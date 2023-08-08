@@ -1,0 +1,52 @@
+body {
+    background-image: url(../image/civilwar.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+}
+.Game {
+    border: 1px 1px solid white;
+    box-shadow: -2px 5px 5px 5px rgba(255, 0, 0, 0.333);
+    background-color:rgba(0, 0, 0, 0.35);
+    opacity: inherit;
+    width:  600px;
+    height: 800px;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;   
+    transform: translate(-50%, -50%);
+}
+.Game h1 {
+    text-align: center;
+    color: red;
+    margin: 40px 0px;
+}
+.Gamer {
+    font-size: 30px;
+    color: white;
+    text-shadow: 5px, 10px, 5px;
+    text-align: center;
+}
+.capt {
+    color: rgba(212, 228, 239, 0.792);
+}
+.iron {
+    color: gold;
+}
+.rounds {
+    color: rgb(63 245 1)
+}
+.rounds span {
+    color: red;
+}
+img {
+    height: 100px;
+    width: 100px;
+    margin: 20px 40px;
+    border-radius: 50px;
+}
+a:link{
+    text-decoration: none;
+}
+
